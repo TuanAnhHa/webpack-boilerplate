@@ -1,0 +1,10 @@
+$green: green;
+$white: #ffffff;
+
+div.container {
+    p {
+        background-color: $green;
+        color           : $white;
+        padding         : 30px;
+    }
+}

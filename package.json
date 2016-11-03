@@ -1,0 +1,34 @@
+{
+  "name": "responsivedesignwebpack",
+  "version": "1.0.0",
+  "description": "responsive design using webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "responsive",
+    "design"
+  ],
+  "author": "Tuan Anh Ha",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.11.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "jquery": "^3.1.1"
+  }
+}
